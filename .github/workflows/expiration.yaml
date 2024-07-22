@@ -1,0 +1,13 @@
+name: expiration
+
+on:
+  pull_request:
+    paths:
+      - "expiration/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd auth && npm install
