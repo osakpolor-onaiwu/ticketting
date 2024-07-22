@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@osastickettingapp/common": "^1.0.13",
+    "stripe": "^16.2.0"
+  }
+}
